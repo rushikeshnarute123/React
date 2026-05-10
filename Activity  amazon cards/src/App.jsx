@@ -1,6 +1,4 @@
 import "./App.css"
-import Title from "./Title";
-import {Description} from "./Description.jsx";
 import Product from "./Product.jsx";
 import ProductTab from "./ProductTab";
 
