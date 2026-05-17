@@ -1,7 +1,7 @@
 import "./App.css"
 import Product from "./Product.jsx";
 import ProductTab from "./ProductTab";
-
+import Button from "./Button.jsx";
 
 function App() {
   return (
@@ -9,7 +9,8 @@ function App() {
       {/* <Title></Title>
       <Description/> */}
 
-      <ProductTab/>
+      {/* <ProductTab/> */}
+      <Button></Button>
       
     </div>
   );
