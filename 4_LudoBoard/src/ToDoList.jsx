@@ -7,13 +7,17 @@ export default function ToDoList(){
     let [newToDo, setNewToDo] = useState([]);
 
     let addNewTask = () => {
-        console.log("add");
+        setTodos([...todos, newToDo]);
+    }
+
+    let updateToDoValue = (event) => {
+        setNewToDo(event.target.value);
     }
 
     return (
         <div>
             <br /><br />
-            <input placeholder="add a task" value={newToDo} onChange={}></input>
+            <input placeholder="add a task" type="text" value={newToDo} onChange={updateToDoValue}></input>
             <br />
 
             <button onClick={addNewTask}>Add Task</button>

@@ -1,5 +1,5 @@
 import './App.css'
-import LudoBoard from './LudoBoard'
+// import LudoBoard from './LudoBoard'
 import ToDoList from './ToDoList'
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <ToDoList></ToDoList>
+      {/* <LudoBoard></LudoBoard> */}
     </>
   )
 }
